@@ -16,6 +16,9 @@ class FlutterDeployments extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Scaffold(
+        body: Center(
+          child: Text('This is the Production Deployment'),
+        ),
       )
     );
   }

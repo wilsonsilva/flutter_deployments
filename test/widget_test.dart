@@ -16,6 +16,6 @@ void main() {
     await tester.pumpWidget(const FlutterDeployments());
 
     // Verify that the text is present.
-    expect(find.text('Flutter Github Actions Deployments'), findsOneWidget);
+    expect(find.text('This is the Production Deployment'), findsOneWidget);
   });
 }
